@@ -44,13 +44,12 @@
     "license": "GPL-3.0-only",
     "private": false,
     "devDependencies": {
-        "@nestjs/common": "^10.3.8",
-        "@nestjs/core": "^10.3.8",
+        "@nestjs/common": "^11.1.1",
+        "@nestjs/core": "^11.1.1",
         "@typegoose/typegoose": "^12.5.0",
-        "@types/mongoose": "^5.11.97",
         "@types/node": "^20.12.13",
-        "@typescript-eslint/eslint-plugin": "^7.11.0",
-        "@typescript-eslint/parser": "^7.11.0",
+        "@typescript-eslint/eslint-plugin": "^8.32.1",
+        "@typescript-eslint/parser": "^8.32.1",
         "eslint": "^9.3.0",
         "eslint-config-prettier": "^9.1.0",
         "eslint-plugin-import": "^2.29.1",
@@ -67,8 +66,8 @@
         "typescript": "^5.4.5"
     },
     "peerDependencies": {
-        "@nestjs/common": "^10.3.8",
-        "@nestjs/core": "^10.3.8",
+        "@nestjs/common": "^11.1.0",
+        "@nestjs/core": "^11.1.0",
         "@typegoose/typegoose": "^12.5.0",
         "mongoose": "^8.4.0",
         "reflect-metadata": "^0.2.2",
