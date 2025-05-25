@@ -13,22 +13,22 @@
         "mongodb"
     ],
     "repository": {
-        "url": "https://github.com/GrapeoffJS/kindagoose",
+        "url": "https://github.com/findingtheconcept/kindagoose",
         "type": "git"
     },
-    "homepage": "https://grapeoffjs.github.io/kindagoose/",
+    "homepage": "https://findingtheconcept.github.io/kindagoose",
     "author": "Dmitriy Grape <grapeoff.official@gmail.com>",
     "engines": {
         "node": ">=12.9.0"
     },
     "bugs": {
-        "url": "https://github.com/GrapeoffJS/kindagoose/issues",
+        "url": "https://github.com/findingtheconcept/kindagoose/issues",
         "email": "grapeoff.official@gmail.com"
     },
-    "readme": "https://github.com/GrapeoffJS/kindagoose#README.md",
     "scripts": {
-        "build": "rimraf dist && tsc -p tsconfig.json",
-        "build:dev": "tsc --watch -p tsconfig.json",
+        "prebuild": "rimraf dist",
+        "build": "tsc",
+        "build:dev": "tsc --watch",
         "prepare": "yarn build"
     },
     "funding": [
